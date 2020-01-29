@@ -1,5 +1,5 @@
 <?php 
- date_default_timezone_set('Asia/Kolkata');
+date_default_timezone_set('Asia/Kolkata');
  // date_default_timezone_set('Europe/Berlin');
  echo $date= date('d-m-Y H:i:s') ;
  // die;
