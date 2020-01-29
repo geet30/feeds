@@ -1,0 +1,124 @@
+.basic_panel {
+    padding: 10px 15px;
+}
+table.table.panel_table thead{
+    background: #000;
+    color: #fff;
+}
+button#add_row {
+    background: transparent;
+    border: 1px solid #ddd;
+    border-radius:3px;
+    font-size: 15px;
+    padding: 6px 15px;
+     margin: 20px 0;
+}
+input.submitbtn{
+	background: #57ba56;
+    border: 0;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 6px 15px;
+    color: #fff;
+    float: right;
+}
+.current_feed p {
+    font-size: 20px;
+}
+
+form.formpost{border-bottom: 1px solid #ddd;padding-bottom: 20px;overflow: hidden;}
+.current_feed table thead{
+    background: #f8f9f8;
+}
+.imp_exp_btn {
+    overflow: hidden;
+    float: left;
+    padding-bottom: 15px;
+}
+.imp_exp_btn button {
+    float: left;
+    margin-right: 10px;
+}
+.imp_exp_btn a {
+    width: auto;
+    overflow: hidden;
+}
+a.removeButton i{font-size: 20px;}
+.panel_content_main .panel-body {
+    padding: 10px 0;
+    font-size: 20px;
+        color: #57ba56;
+}
+input.include_on_day.day_checkbox {
+    margin-left: 15px;
+}
+input.include_on_day.day_checkbox_tue {
+    margin-left: 9px;
+}
+input.include_on_day.day_checkbox_wed {
+    margin-left: 5px;
+}
+input.include_on_day.day_checkbox_thu {
+    margin-left: 6px;
+}
+input.include_on_day.day_checkbox_fri {
+    margin-left: 4px;
+}
+input.include_on_day.day_checkbox_sat {
+    margin-left: 5px;
+}
+input.include_on_day.day_checkbox_sun {
+    margin-left: 3px;
+}
+td.select_box_width {
+    width: 12%;
+}
+td.time_width_div {
+    width: 8%;
+}
+.imp_exp_btn button:hover {
+    background-color: #57ba56;
+    color: #fff;
+}
+.imp_exp_btn a:hover {
+    background-color: #57ba56;
+    color: #fff;
+    text-decoration: none;
+}
+.table.panel_table>thead>tr>th{text-align: center;font-size: 13px;}
+form#activity_list_form {
+    overflow: hidden;
+}
+
+
+table.table{
+    display: inline-block;
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+select.form-control.supplier {
+    min-width: 140px;
+}
+.feed_number {
+    min-width: 40px;
+}
+.generated-feed {
+    margin-bottom: 20px;
+}
+.generated-feed a {
+    text-decoration: underline;
+}
+.panel_table td {
+    vertical-align: middle !important;
+}
+a.removeButton {
+    cursor: pointer;
+}
+.tDnD_whileDrag {
+    background-color: #efefef;
+}
+@media(max-width: 767px)
+{
+    input.submitbtn {  margin: 0 10px;}
+    button#add_row {  margin: 20px 10px;}
+}
